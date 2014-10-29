@@ -1,0 +1,6 @@
+Bereit aus der VL gegeben: Ableitungsbaum.
+Der Algorithmus soll jede Zuordnung speichern. Arbeite im Ableitungsbaum.
+Starte bei Wurzel MI. Setze MI=1. Gehe zu nächster Ebene, überprüfe, ob
+Wörter bereits zugeordnet sind, nummerier mit der Breitensuche alle nicht
+zugeordneten Wörter die natürlichen Zahlen aufsteigend und die Ebenen
+fortlaufend durch. Setze dies in den folgenden Ebenen fort.
