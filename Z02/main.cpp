@@ -1,4 +1,4 @@
-#include "../K02/fcpp.hh"
+#include "../fcpp.hh"
 
 int potenz(int x, int exp);
 
@@ -51,3 +51,4 @@ int vollkommen(int zahl, int i) {
             0
     );
 }
+
