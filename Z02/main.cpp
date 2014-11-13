@@ -45,7 +45,8 @@ int vollkommen(int zahl, int i) {
     return cond(i > 1,
             cond(
                     zahl % (i - 1) == 0,
-                    i - 1 + vollkommen(zahl, i - 1), 0 + vollkommen(zahl, i - 1)
+                    i - 1 + vollkommen(zahl, i - 1),
+                    0 + vollkommen(zahl, i - 1)
             ),
             0
     );
